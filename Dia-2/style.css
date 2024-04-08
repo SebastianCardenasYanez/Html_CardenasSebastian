@@ -1,18 +1,115 @@
 .name{
+    margin-left: -6%;
+    background-color: rgb(2, 80, 204);
+    width: 480px; /* Ancho del cuadro */
+    height: 120px; /* Altura del cuadro */
+    margin-top: 0%; /* Margen entre los cuadros */
     text-align: center;
+}
+h1{
+    text-align: center;
+    margin: 0px;
 }
 body{
     font-family: sans-serif;
     background-color:rgb(218, 231, 252);
 }  
 .left {
+    width: 70%;
+    height: 0vh;
+    display:block;
+    float: left;
+    margin-left: 20px;
+    flex-direction:column;
+    justify-content:left;
+    align-items: left; /* Cambia los colores aquí */
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    
+    
+}  
+footer {
+    margin-top: 8%;
+    justify-content:flex-end;
+    clear: both;
+}
+.right {
     width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+    height: 75vh;
+    margin-left:6px ;
+    display:block;
+    float: left;
+    flex-direction:column;
+    justify-content:left;
     align-items: left;
-    background-image: rgb(0, 34, 88); /* Cambia los colores aquí */
     color: rgb(0, 0, 0);
     text-align: left;
-}  
+    position: justify;
+
+}
+.clear{
+    clear: both;
+}
+.contenedoright{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    
+}
+img{
+    max-width: 800px;
+    border-radius: 40%;
+    margin: 10px;
+    margin-left: 40px;
+    
+}
+.contenedorleft{
+    display: flex;
+    justify-content:flex-start;
+    position: relative;
+    
+}
+.cuadro {
+    position: absolute;
+    width: 480px; /* Ancho del cuadro */
+    height: 648px; /* Altura del cuadro */
+    margin-left: -8px; /* Margen entre los cuadros */
+    background-color: rgb(82, 148, 255);
+}
+
+.cuadroright{
+    position: absolute;
+    float: left;
+    width: 480px; /* Ancho del cuadro */
+    height: 648px; /* Altura del cuadro */
+    margin-left: 495px; /* Margen entre los cuadros */
+    background-color: rgb(218, 231, 252);
+}
+.cuadrito{
+    background-color: rgb(218, 231, 252);
+    width: 240px; /* Ancho del cuadro */
+    height: 40px; 
+    margin-left: -5%;
+    text-align: center;
+    
+}
+
+.cuadradito{
+    background-color: rgb(82, 148, 255);
+   
+    width: 240px; /* Ancho del cuadro */
+    height: 40px; 
+    margin: 1%;
+    margin-left: -5%;
+    text-align: center;
+}
+
+.cuadradito1{
+    background-color: rgb(82, 148, 255);
+   
+    width: 240px; /* Ancho del cuadro */
+    height: 70px; 
+    margin: 1%;
+    margin-left: -5%;
+    text-align: center;
+}
